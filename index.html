@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+<head>
+  <meta charset='UTF-8'>
+  <title>Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Podcast</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="references.html">References</a>
+                </div>
+            </div>    
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>Four to Five</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-content-wrapper">
+        
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1168765747&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jessica-hoffman-767953221" title="Jessica Hoffman" target="_blank" style="color: #cccccc; text-decoration: none;">Jessica Hoffman</a> · <a href="https://soundcloud.com/jessica-hoffman-767953221/mu-group-podcast-jessica-hoffman-lillian-beaty-yash-banga-pleasant-ballenger-liyah-smalls" title="Mu Group Podcast- Jessica Hoffman, Lillian Beaty, Yash Banga, Pleasant Ballenger, Liyah Smalls" target="_blank" style="color: #cccccc; text-decoration: none;">Mu Group Podcast- Jessica Hoffman, Lillian Beaty, Yash Banga, Pleasant Ballenger, Liyah Smalls</a>
+    
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div> 
+            <p> The use of the name "Four to Five" is intended as parody of the podcast "5-4" (https://www.fivefourpod.com/) and similarly used solely for educational purposes and is therefore protected under the Fair Use Clause in Section 107 of the Copyright Act. </p>
+        </div>
+    
+    </div>
+        </body>
+    
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        
+            portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+    
+    });
+    });
+
+</script>
+    
+</html>
